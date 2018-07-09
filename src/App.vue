@@ -119,7 +119,6 @@ html{
 
 前端开发工程师。
 
-[下载离线简历](http://www.zhoumingjie.com/Js-resume/static/resume.pdf)
 
 技能
 ====
@@ -184,7 +183,7 @@ html{
 离线简历
 ====
 
-[下载简历](http://www.zhoumingjie.com/Js-resume/static/resume.pdf)
+<a href="http://www.zhoumingjie.com/Js-resume/static/resume.pdf" target="_blank">下载离线简历</a>
 
 `
       }
