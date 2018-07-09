@@ -1,3 +1,4 @@
+### [在线预览](http://www.zhoumingjie.com/Js-resume/public/)
 
 ## 使用方法
 
