@@ -23,8 +23,8 @@
         enableHtml: false,
         fullStyle: [
           `/*
-* Inspired by http://strml.net/
-* 大家好，我是南方。
+* Inspired by http://strml.net/, sitexa.org/anires/public/
+* 大家好，我是明杰。
 * 我来写一份简历！
 */
 
@@ -126,106 +126,79 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `南方
+        fullMarkdown: `明杰
 ====
 
-资深软件工程师，资深产品经理，高级项目经理。现为自由职业。
+坐标：上海浦东。
+
+前端开发工程师。
+
+[下载离线简历](http://www.zhoumingjie.com/Js-resume/static/resume.pdf)
 
 技能
 ====
 
-数据库设计
-----
-  - 结构化数据库设计
-  - noSQL设计
-
-后端开发
-----
-  - 用户管理
-  - 单点登录
-  - 第三方登录
-  - 权限管理
-  - 交易系统
-  - 支付系统
-  - 社区系统
-  - 博客系统
-  - 公众号开发
-  - 小程序开发
-  - API接口
-
 前端开发
 ----
-  - Web前端开发
-  - 移动终端(Native App, Hybrid App)
 
-产品设计
+  - Web 网站
+  - 响应式网站
+  - Web App
+  - 移动终端(Native App, Hybrid App)
+  - 博客系统
+  - 公众号开发
+  - 微信小程序开发
+  - Js 小型游戏
+
+相关项目
 ----
-  - 智慧旅游项目
-  - 运动健康云平台
-  - 社区支持农业O2O项目
-  - 省级环境监控平台
-  - 高速公路异地处罚系统
-  - 环保局办公自动化系统
-  - 保险公司数据迁移项目
-  - 啤酒厂供应链项目
-  - 货运代理系统
-  - 集装箱管理系统
-  - 滞期费管理项目
+
+  - 电力能源云平台
+  - 网医微信小程序
+  - 滴滴护工
+  - 官网改版
+  - 山丽官方在线抽奖系统
+  - 充电桩平台项目Demo
+ 
 
 技术及语言
 ----
-  - Java: SpringMVC, SpringCloud, Hibernate, iBatis, spark, sql2o, HikariCP, freemarker, okHttp, retrofit, picasso, RxJava, Gson, Moshi
-  - Kotlin: ktor, exposed, anko
-  - Node.js: express, angular, ionic, react, cordova, meteor, electron, axios
-  - Swift: Vapor, ReactiveSwift, ReactiveCocoa, SwiftJson
-  - Golang: hugo, beego, gorm, sqlx, matcha
-  - Python: tushare, pandas, numpy, matplotlib
-  - DotNet and PHP
-  - DB: SQLServer, Oracle, MySQL/MariaDB, MongoDB, graphQL, redis, memcached
-  - WebServer: apache, nginx, tomcat, netty, jetty
-  - OS: Ubuntu, CentOS, MacOS, Windows
-  - Others: Docker, git, Xmind
+
+  - JavaScript: ES5, ES6
+  - UI及框架: Vue(系列),小程序(系列),bootstrap, weui, miui, element-ui, echarts, highcharts, hexo, JQuery
+  - Node.js: koa2, pug
+  - DB: MySQL, MongoDB
+  - WebServer: apache, nginx, tomcat
+  - Others: svn, git, Axure
 
 工作经历
 ====
 
-1. 湖南融耀健康管理有限公司
-2. 湖南三英特旅游智能技术有限公司
-3. 合肥蓝盾科技有限公司
-4. 上海易保网络有限公司
-5. 厦门海环计算机软件有限公司
+1. 上海山丽信息安全有限公司
+2. 上海达闻科技有限公司
 
 教育经历
 ====
 
-1. 华东理工大学 环境工程学士
-2. 厦门大学 系统工程硕士
-
-文章
-====
-
-* [故土难离（我的父亲母亲）](https://www.meipian.cn/qacqfbz?user_id=6119180&uuid=d541c15eef694065bc9d1ac9a07925a2&idfa=F1F97D3A-B60D-4189-8CC6-D2254119F7E8&utm_medium=meipian_ios&utm_source=singlemessage&v=4.3.2&from=singlemessage&isappinstalled=1)
-* [油腻腻的中年（小诗）](https://www.meipian.cn/wjaz3zh?user_id=6119180&uuid=ca1cd053b717451da781786de44e66e7&idfa=F1F97D3A-B60D-4189-8CC6-D2254119F7E8&utm_medium=meipian_ios&utm_source=singlemessage&v=4.3.2&from=singlemessage&isappinstalled=1)
-* [生命（老四们的蝼蚁人生）](https://www.meipian.cn/vc4pr59?user_id=6119180&uuid=799c98f5a187405c94c86f7da7788869&idfa=F1F97D3A-B60D-4189-8CC6-D2254119F7E8&utm_medium=meipian_ios&utm_source=singlemessage&v=4.3.2&from=singlemessage&isappinstalled=1)
-* [大健康商业模式](http://www.sitexa.org/technology/%E5%A4%A7%E5%81%A5%E5%BA%B7%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F.html)
-* [社区社交商业模型](http://www.sitexa.org/other/%E7%A4%BE%E5%8C%BA%E7%A4%BE%E4%BA%A4%E5%95%86%E4%B8%9A%E6%A8%A1%E5%9E%8B.html)
+1. 河南大学 民生学院学士
 
 链接
 ====
 
-* [GitHub](https://github.com/sitexa)
-* [技术博客](http://www.sitexa.org)
-* [南方时代](http://www.sitexa.net)
-* [神秘湘鄂西](http://www.sitexa.cn)
+* [个人博客](http://www.zhoumingjie.com)
+
 
 联系方式
 ====
 
-* 电话：18673107430
-* 微信：18673107430
-* 邮箱：xnpeng@163.com
+* 电话：15565135661
+* 微信：15565135661
+* 邮箱：mingjie.zhou@foxmail.com
 
-[下载简历](http://www.sitexa.org/anires/static/resume.pdf)
+离线简历
+====
+
+[下载简历](http://www.zhoumingjie.com/Js-resume/static/resume.pdf)
 
 `
       }

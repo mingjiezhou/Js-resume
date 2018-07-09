@@ -119,7 +119,7 @@ html{
 
 前端开发工程师。
 
-[下载离线简历](http://www.zhoumingjie.com/anires/static/resume.pdf)
+[下载离线简历](http://www.zhoumingjie.com/Js-resume/static/resume.pdf)
 
 技能
 ====
@@ -127,9 +127,9 @@ html{
 前端开发
 ----
 
-	- web 网站
-	- 响应式网站
-	- Web App
+  - Web 网站
+  - 响应式网站
+  - Web App
   - 移动终端(Native App, Hybrid App)
   - 博客系统
   - 公众号开发
@@ -144,14 +144,14 @@ html{
   - 滴滴护工
   - 官网改版
   - 山丽官方在线抽奖系统
-	- 充电桩平台项目Demo
-
+  - 充电桩平台项目Demo
+ 
 
 技术及语言
 ----
 
-	- JavaScript: ES5, ES6
-	- UI及框架: Vue(系列),小程序(系列),bootstrap, weui, miui, element-ui, echarts, highcharts, hexo, JQuery
+  - JavaScript: ES5, ES6
+  - UI及框架: Vue(系列),小程序(系列),bootstrap, weui, miui, element-ui, echarts, highcharts, hexo, JQuery
   - Node.js: koa2, pug
   - DB: MySQL, MongoDB
   - WebServer: apache, nginx, tomcat
@@ -184,7 +184,7 @@ html{
 离线简历
 ====
 
-[下载简历](http://www.sitexa.org/anires/static/resume.pdf)
+[下载简历](http://www.zhoumingjie.com/Js-resume/static/resume.pdf)
 
 `
       }
