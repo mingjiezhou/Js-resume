@@ -114,11 +114,6 @@ html{
   background: #ddd;
 }
 /*给名字加点色彩吧*/
-.resumeEditor blockquote {
-  margin: 1em;
-  padding: .5em;
-  background: #ddd;
-}
 .resumeEditor sup {
   display: inline-block;
   border-radius: 50%;
