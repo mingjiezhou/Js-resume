@@ -18,7 +18,7 @@
     },
     data() {
       return {
-        interval: 30,
+        interval: 40,
         currentStyle: '',
         enableHtml: false,
         fullStyle: [
@@ -90,7 +90,7 @@ html{
   margin: 1em 0 .5em;
 }
 .resumeEditor li {
-	margin-top: 4px;
+ margin-top: 4px;
 }
 .resumeEditor ul,.resumeEditor ol{
   list-style: none;
@@ -114,16 +114,21 @@ html{
   background: #ddd;
 }
 /*给名字加点色彩吧*/
-sup {
-	display: inline-block;
-	color: yellow;
-	border-radius: 50%;
-	background: red;
-	width: 14px;
-	height: 14px;
-	text-align: center;
-	line-height: 14px;
-	margin-left: -2px;
+.resumeEditor blockquote {
+  margin: 1em;
+  padding: .5em;
+  background: #ddd;
+}
+.resumeEditor sup {
+  display: inline-block;
+  border-radius: 50%;
+  background: red;
+  color: yellow;
+  width: 14px;
+  height: 14px;
+  text-align: center;
+  line-height: 14px;
+  margin-left: -2px;
 }
 
 /*好啦，完成*/

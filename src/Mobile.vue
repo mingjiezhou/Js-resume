@@ -18,7 +18,7 @@
     },
     data() {
       return {
-        interval: 30,
+        interval: 40,
         currentStyle: '',
         enableHtml: false,
         fullStyle: [
@@ -130,16 +130,16 @@ html{
 }
 
 /*给名字加点色彩吧*/
-sup {
-	display: inline-block;
-	color: yellow;
-	border-radius: 50%;
-	background: red;
-	width: 14px;
-	height: 14px;
-	text-align: center;
-	line-height: 14px;
-	margin-left: -2px;
+.resumeEditor sup {
+  display: inline-block;
+  border-radius: 50%;
+  background: red;
+  color: yellow;
+  width: 14px;
+  height: 14px;
+  text-align: center;
+  line-height: 14px;
+  margin-left: -2px;
 }
 
 /*好啦，完成*/
