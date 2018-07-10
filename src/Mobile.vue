@@ -18,7 +18,7 @@
     },
     data() {
       return {
-        interval: 40,
+        interval: 30,
         currentStyle: '',
         enableHtml: false,
         fullStyle: [
@@ -80,7 +80,7 @@ html{
   padding: .5em;  margin: 2.5vh;
   width: 95vw; height: 45vh;
   border: 1px solid;
-  background: white; color: #222;
+  background: #fff; color: #222;
   overflow: auto;
 }
 /* 好了，我开始写简历了 */
@@ -99,15 +99,19 @@ html{
 .resumeEditor{
   padding: 2em;
 }
-.resumeEditor h2{
-  display: inline-block;
-  border-bottom: 1px solid;
+.resumeEditor h2,.resumeEditor h3{
+
+  border-bottom: 1px dashed ;
   margin: 1em 0 .5em;
 }
 .resumeEditor ul,.resumeEditor ol{
   list-style: none;
 }
+.resumeEditor li {
+	margin-top: 4px;
+}
 .resumeEditor ul> li::before{
+
   content: '•';
   margin-right: .5em;
 }
@@ -124,21 +128,36 @@ html{
   padding: .5em;
   background: #ddd;
 }
+
+/*给名字加点色彩吧*/
+sup {
+	display: inline-block;
+	color: yellow;
+	border-radius: 50%;
+	background: red;
+	width: 14px;
+	height: 14px;
+	text-align: center;
+	line-height: 14px;
+	margin-left: -2px;
+}
+
+/*好啦，完成*/
+
 `],
         currentMarkdown: '',
-        fullMarkdown: `明杰
-====
+        fullMarkdown: `
+
+### 周明杰	<sup>v</sup>
 
 坐标：上海浦东。
 
-前端开发工程师。
+岗位: 前端开发工程师。
 
 
-技能
-====
+## 技能
 
-前端开发
-----
+### 前端开发
 
   - Web 网站
   - 响应式网站
@@ -149,8 +168,7 @@ html{
   - 微信小程序开发
   - Js 小型游戏
 
-相关项目
-----
+### 相关项目
 
   - 电力能源云平台
   - 网医微信小程序
@@ -160,8 +178,7 @@ html{
   - 充电桩平台项目Demo
  
 
-技术及语言
-----
+### 技术及语言
 
   - JavaScript: ES5, ES6
   - UI及框架: Vue(系列),小程序(系列),bootstrap, weui, miui, element-ui, echarts, highcharts, hexo, JQuery
@@ -170,32 +187,27 @@ html{
   - WebServer: apache, nginx, tomcat
   - Others: svn, git, Axure
 
-工作经历
-====
+### 工作经历
 
 1. 上海山丽信息安全有限公司
 2. 上海达闻科技有限公司
 
-教育经历
-====
+### 教育经历
 
 1. 河南大学 民生学院学士
 
-链接
-====
+### 链接
 
 * [个人博客](http://www.zhoumingjie.com)
 
 
-联系方式
-====
+### 联系方式
 
 * 电话：15565135661
 * 微信：15565135661
 * 邮箱：mingjie.zhou@foxmail.com
 
-离线简历
-====
+### 离线简历
 
 <a href="http://www.zhoumingjie.com/Js-resume/static/resume.pdf" target="_blank">下载离线简历</a>
 
