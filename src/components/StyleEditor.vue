@@ -13,9 +13,11 @@
     computed: {
       highlightedCode: function () {
         return Prism.highlight(this.code, Prism.languages.css)
+//      return this.code
       },
       codeInStyleTag: function () {
-        return `<style>${this.code}</style>`
+//      return `<style>${this.code}</style>`
+				return "<style>" + this.code + "</style>"
       }
     },
     methods: {

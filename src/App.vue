@@ -18,7 +18,7 @@
     },
     data() {
       return {
-        interval: 40,
+        interval: 1000,
         currentStyle: '',
         enableHtml: false,
         fullStyle: [
@@ -90,29 +90,9 @@ html{
   margin: 1em 0 .5em;
 }
 .resumeEditor li {
- margin-top: 4px;
-}
-.resumeEditor ul,.resumeEditor ol{
-  list-style: none;
-}
-.resumeEditor ul> li::before{
-  content: '•';
-  margin-right: .5em;
-}
-.resumeEditor ol {
-  counter-reset: section;
+  margin: 4px auto auto 18px;
 }
 
-.resumeEditor ol li::before {
-  counter-increment: section;
-  content: counters(section, ".") " ";
-  margin-right: .5em;
-}
-.resumeEditor blockquote {
-  margin: 1em;
-  padding: .5em;
-  background: #ddd;
-}
 /*给名字加点色彩吧*/
 .resumeEditor sup {
   display: inline-block;
@@ -173,12 +153,12 @@ html{
 
 ### 工作经历
 
-1. 上海山丽信息安全有限公司
-2. 上海达闻科技有限公司
+ - 上海山丽信息安全有限公司
+ - 上海达闻科技有限公司
 
 ### 教育经历
 
-1. 河南大学 民生学院学士
+ - 河南大学 民生学院学士 2011-2015
 
 ### 链接
 
@@ -224,7 +204,7 @@ html{
             let style = this.fullStyle[n]
             if (!style) { return }
             // 计算前 n 个 style 的字符总数
-            let length = this.fullStyle.filter((_, index) => index <= n).map((item) => item.length).reduce((p, c) => p + c, 0)
+            let length = this.fullStyle.filter((_, index) => index <= n).map((item) => item.length).reduce((p, c) => p + c, 0);
             let prefixLength = length - style.length
             if (this.currentStyle.length < length) {
               let l = this.currentStyle.length - prefixLength

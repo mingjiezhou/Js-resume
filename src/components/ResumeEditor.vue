@@ -16,7 +16,7 @@
       }
     },
     methods: {
-      goBottom: function () {
+      goBottom: function () {    	
         this.$refs.container.scrollTop = 100000
       },
       goTop: function(){
