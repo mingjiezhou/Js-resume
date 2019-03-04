@@ -18,7 +18,7 @@
     },
     data() {
       return {
-        interval: 100,
+        interval: 50,
         currentStyle: '',
         enableHtml: false,
         fullStyle: [

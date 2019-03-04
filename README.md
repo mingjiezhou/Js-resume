@@ -19,7 +19,7 @@ npm run dev
     npm run build
     git add .
     git commit -m "update"
-    git push
+    git push origin master
     ```
 
 3. 开启 GitHub Pages 功能
