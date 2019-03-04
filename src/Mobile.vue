@@ -170,6 +170,7 @@ html{
 
 ### 相关项目
 
+  - VOC（客户之声数据分析系统）
   - 电力能源云平台
   - 网医微信小程序
   - 滴滴护工
@@ -180,21 +181,22 @@ html{
 
 ### 技术及语言
 
-  - JavaScript: ES5, ES6
+  - JavaScript: ES5, ES6, ES7
   - UI及框架: Vue(系列),小程序(系列),bootstrap, weui, miui, element-ui, echarts, highcharts, hexo, JQuery
   - Node.js: koa2, pug
-  - DB: MySQL, MongoDB
+  - DB: MySQL
   - WebServer: apache, nginx, tomcat
-  - Others: svn, git, Axure
+  - Others: svn, git, Axure, PS, 蓝湖
 
 ### 工作经历
 
-1. 上海山丽信息安全有限公司
-2. 上海达闻科技有限公司
+1. 上海宝尊电子商务有限工资
+2. 上海山丽信息安全有限公司
+3. 上海达闻科技有限公司
 
 ### 教育经历
 
-1. 河南大学 民生学院学士
+1. 河南大学 民生学院学士 2011-2015
 
 ### 链接
 
@@ -203,9 +205,9 @@ html{
 
 ### 联系方式
 
-* 电话：15565135661
+* 电话：185068356661
 * 微信：1032151090
-* 邮箱：mingjie.zhou@foxmail.com
+* 邮箱：mingjie.zhou@hotmail.com
 
 ### 离线简历
 

@@ -18,7 +18,7 @@
     },
     data() {
       return {
-        interval: 1000,
+        interval: 500,
         currentStyle: '',
         enableHtml: false,
         fullStyle: [
@@ -134,6 +134,7 @@ html{
 
 ### 相关项目
 
+  - VOC（客户之声数据分析系统）
   - 电力能源云平台
   - 网医微信小程序
   - 滴滴护工
@@ -144,15 +145,16 @@ html{
 
 ### 技术及语言
 
-  - JavaScript: ES5, ES6
+  - JavaScript: ES5, ES6, ES7
   - UI及框架: Vue(系列),小程序(系列),bootstrap, weui, miui, element-ui, echarts, highcharts, hexo, JQuery
   - Node.js: koa2, pug
-  - DB: MySQL, MongoDB
+  - DB: MySQL
   - WebServer: apache, nginx, tomcat
-  - Others: svn, git, Axure
+  - Others: svn, git, Axure, PS, 蓝湖
 
 ### 工作经历
 
+ - 上海宝尊电子商务有限工资
  - 上海山丽信息安全有限公司
  - 上海达闻科技有限公司
 
@@ -162,14 +164,14 @@ html{
 
 ### 链接
 
-* [个人博客](http://www.zhoumingjie.com)
+* [个人网站](http://www.zhoumingjie.com)
 
 
 ### 联系方式
 
-* 电话：15565135661
+* 电话：18506835661
 * 微信：1032151090
-* 邮箱：mingjie.zhou@foxmail.com
+* 邮箱：mingjie.zhou@hotmail.com
 
 ### 离线简历
 
